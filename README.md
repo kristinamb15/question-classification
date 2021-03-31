@@ -2,7 +2,7 @@
 
 XLNet with multilayer bidirectional GRU is trained on TREC-50 data set augmented using [Easy Data Augmentation techniques](https://arxiv.org/pdf/1901.11196.pdf).
 
-The notebook was originally run in [Google Colab](https://colab.research.google.com/drive/1o1XaUGR--Hj0LdOdFFshaJJB-eeIeJ4c?usp=sharing) and can be viewed there by visiting the link, or viewed in [this repo](TrecClassification.ipynb).
+The notebook was originally run in [Google Colab](https://drive.google.com/file/d/1BMaX4SN3y1egNp7atzdGzSaDWiRRkHq7/view?usp=sharing), but the entire project can be viewed in the [Jupyter Notebook](https://nbviewer.jupyter.org/github/kristinamb15/question-classification/blob/main/TrecClassfication.ipynb).
 
 **Language**: Python
 

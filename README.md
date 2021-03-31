@@ -8,27 +8,27 @@ The notebook was originally run in [Google Colab](https://colab.research.google.
 
 ## Files
 
-📦TrecClassification
- ┣ 📜.gitignore  
- ┣ 📜LICENSE.txt
- ┣ 📜README.md
- ┣ 📜TrecClassfication.ipynb        # Main notebook
- ┗ 📜TrecClassification.zip         # Files needed to run the notebook
-    ┣ 📂data
-    ┃ ┣ 📂processed
-    ┃ ┃ ┣ 📜label_refs.csv          # Label names and descriptions
-    ┃ ┃ ┣ 📜testing.csv             # Test data
-    ┃ ┃ ┗ 📜training.csv            # Training data
-    ┃ ┗ 📂raw                    
-    ┃ ┃ ┣ 📜input.txt               # Data prepared for augmentation
-    ┃ ┃ ┣ 📜eda_input.txt           # Augmented data
-    ┃ ┃ ┣ 📜train_5500.txt          # Raw training data
-    ┃ ┃ ┗ 📜TREC_10.txt             # Raw test data
-    ┣ 📂eda                         # Scripts used for data augmentation
-    ┃ ┣ 📜augment.py
-    ┃ ┗ 📜eda.py
-    ┣ 📂models
-    ┃ ┗ 📜xlgru.pt                  # Saved model parameters
+    📦TrecClassification
+    ┣ 📜.gitignore  
+    ┣ 📜LICENSE.txt
+    ┣ 📜README.md
+    ┣ 📜TrecClassfication.ipynb        # Main notebook
+    ┗ 📜TrecClassification.zip         # Files needed to run the notebook
+        ┣ 📂data
+        ┃ ┣ 📂processed
+        ┃ ┃ ┣ 📜label_refs.csv          # Label names and descriptions
+        ┃ ┃ ┣ 📜testing.csv             # Test data
+        ┃ ┃ ┗ 📜training.csv            # Training data
+        ┃ ┗ 📂raw                    
+        ┃ ┃ ┣ 📜input.txt               # Data prepared for augmentation
+        ┃ ┃ ┣ 📜eda_input.txt           # Augmented data
+        ┃ ┃ ┣ 📜train_5500.txt          # Raw training data
+        ┃ ┃ ┗ 📜TREC_10.txt             # Raw test data
+        ┣ 📂eda                         # Scripts used for data augmentation
+        ┃ ┣ 📜augment.py
+        ┃ ┗ 📜eda.py
+        ┣ 📂models
+        ┃ ┗ 📜xlgru.pt                  # Saved model parameters
 
 ## License
 
